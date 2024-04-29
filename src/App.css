@@ -201,7 +201,7 @@ footer {
   .text-about {
     width: min(300px, 90%);
     padding: 5; 
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
   }
 }
