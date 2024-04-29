@@ -2,6 +2,7 @@ import {PropTypes} from "prop-types";
 import AboutMe from "../About";
 import MyHability from "../Hability";
 import MyProjects from "../Projects";
+import Contact from "../Contact";
 
 export default function PrincipalComponent({color, backgroundColor, boxShadow}) {
     return (
@@ -19,6 +20,7 @@ export default function PrincipalComponent({color, backgroundColor, boxShadow}) 
             <AboutMe />
            <MyHability />
             <MyProjects backgroundColor={backgroundColor} boxShadow={boxShadow} />
+            <Contact color={color} />
         </main>
     )
 }
