@@ -42,6 +42,7 @@ export default function MyProjects({backgroundColor, boxShadow}) {
                         <p>Este projeto não apenas demonstra minhas habilidades técnicas em React e desenvolvimento web,
                             mas também minha capacidade de criar aplicações funcionais, dinâmicas e responsivas para
                             atender às necessidades dos usuários modernos.</p>
+                            <p><a id='link' className='d-button' href="https://fackeshopp.vercel.app/">Visitar o projeto</a></p>
                     </div>} 
                 </div>
             </div>
