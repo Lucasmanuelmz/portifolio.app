@@ -146,9 +146,7 @@ footer {
 
 @media (max-width: 1024px) {
   .container {
-    margin-top: 90px;
-    max-width: 900px;
-    padding: 0 20px;
+    padding-top: 200px;
   }
 
   .apresentation {
@@ -162,10 +160,24 @@ footer {
   }
 }
 
+@media (max-width: 780px) {
+  .root {
+    margin-top: 0;
+  }
+  .container {
+    margin: 0;
+    padding-top: 150px;
+    background-color: red;
+  }
+
+
+}
+
 @media (max-width: 480px) {
   .container {
-    margin-top: 90px;
+    padding-top: 100px;
     flex-flow: wrap;
+    margin: 0;
   }
 
   .subtitle-1 {
@@ -180,9 +192,15 @@ footer {
     font-size: 18px;
   }
 
+  .n-container {
+    margin: 0;
+    padding: 0;
+  }
+
   .text-about {
-    width: max(460px, 60%);
-    padding: 10px;
-    text-align: center;
+    width: min(280px, 60%);
+    padding: 5; 
+    font-size: 14px;
+    text-align: justify;
   }
 }
