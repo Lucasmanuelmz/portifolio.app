@@ -48,8 +48,6 @@ export default function Header({
             className='links' to="/hability">Habilidades</Link></li>
           <li><Link style={{ color: color }}
             className='links' to="/project">Projetos</Link></li>
-          <li><Link style={{ color: color }}
-            className='links' to="/contact">Contatos</Link></li>
         </ul>
       </div>
     </>
