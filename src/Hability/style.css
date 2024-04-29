@@ -1,0 +1,12 @@
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+    .habilities {
+        display: flex;
+        flex-flow: wrap;
+    }
+}
+
