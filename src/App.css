@@ -175,21 +175,22 @@ footer {
 
 @media (max-width: 480px) {
   .container {
-    padding-top: 100px;
+    padding-top: 150px;
     flex-flow: wrap;
     margin: 0;
   }
 
   .subtitle-1 {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .subtitle-2{
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .text-1 {
     font-size: 18px;
+    padding: 10px;
   }
 
   .n-container {
